@@ -157,6 +157,8 @@ export const generateImage = async (req, res) => {
   }
 };
 
+
+
 export const removeImageBackground = async (req, res) => {
   try {
     const { userId } = req.auth();
